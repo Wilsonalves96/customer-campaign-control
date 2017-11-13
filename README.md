@@ -17,7 +17,7 @@ Também juntamente com o Maven, realizar o deploy de um arquivo .war para que se
 
 
 
-# O que é Deadlock? Detalhe um pouco sobre o caso e como você poderia resolver isso. (5 pontos)
+# O que é Deadlock? Detalhe um pouco sobre o caso e como você poderia resolver isso
 
 Inicialmente, deadlock se trata de processos paralelos, com dependencia entre si.
 Processo 2 está aguardando o processo 1 terminar, e o processo 1 precisa do processo 2 para iniciar.
@@ -29,7 +29,7 @@ Para cada uma delas existem meios diferentes de evitar o deadlock, pois uma vez 
 
 Lembrando que a ideia é conhecer esses cenários, e fazer o possível para que não aconteça.
 
-# 5)	Uma das grandes inclusões no Java 8 foi a API Stream. Com ela podemos fazer diversas operações de loop, filtros, maps, etc. Porém, existe uma variação bem interessante do Stream que é ParallelStreams. Descreva com suas palavras quando qual é a diferença entre os dois e quando devemos utilizar cada um deles
+# Uma das grandes inclusões no Java 8 foi a API Stream. Com ela podemos fazer diversas operações de loop, filtros, maps, etc. Porém, existe uma variação bem interessante do Stream que é ParallelStreams. Descreva com suas palavras quando qual é a diferença entre os dois e quando devemos utilizar cada um deles
 
 Basicamente, o Stream vai trabalhar cada operação de uma vez, seja uma filtro com um .Filter, ou uma busca específica com um .Find, ou até mesmo se algum item respeita seu critério com o .AnyMatch.
 
