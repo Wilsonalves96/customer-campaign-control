@@ -3,7 +3,7 @@ Controle de clientes e campanhas
 
 # Arquitetura
 
-Para desenvolvimento, foi utilizado o Spring tool suite, e um tomcar server local, dentro do próprio spring tool 
+Para desenvolvimento, foi utilizado o Spring tool suite, e um tomcat server local, dentro do próprio spring tool 
 
 Tal projeto está construido em cima do Spring Framework, utilizando o Maven como gerenciador de dependencias, utilizando recursos como (Spring Framework Web Features, JPA e MySQL)
 
