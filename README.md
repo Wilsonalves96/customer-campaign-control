@@ -5,7 +5,7 @@ Controle de clientes e campanhas
 
 Para desenvolvimento, foi utilizado o Spring tool suite, e um tomcat server local, dentro do próprio spring tool 
 
-Tal projeto está construido em cima do Spring Framework, utilizando o Maven como gerenciador de dependencias, utilizando recursos como (Spring Framework Web Features, JPA e MySQL)
+Tal projeto está construido em cima do Spring Framework, utilizando o Maven como gerenciador de dependencias, utilizando recursos como (Spring Framework Web Features, JPA e MySQL) e o Swagger para documentação e exemplo de requests e responses nos serviços aqui criados
 
 A ideia principal de utilizar esse framework parte da ideia do controle que ele oferece. Todo esse controle, ele faz via notations, tais como @EnableAutoConfigure, @AutoWired e afins. Quando o projeto é iniciado, o Spring olha todos os recursos que você desenvolvou e publica estaticamente esses recursos para serem utilizados, dentro do seu escopo é claro.
 
@@ -15,7 +15,10 @@ As web features do framework também ajudam a gerenciar a injeção de dependenc
 
 Também juntamente com o Maven, realizar o deploy de um arquivo .war para que seja possível executa-lo dentro de um tomcat.
 
+Para detalhamento, após iniciar o projeto, acessar a url: http://localhost:8080/customer-campaign-control/swagger-ui.html.
+Claro, substituindo localhost:8080 pelo servidor e porta utilizado.
 
+Esse recurso junto ao spring te traz o detalhamento de todas as API's criadas, tanto exemplos de requests e responses para testes da sua API. Inclusive, como a ideia do projeto é uma prova conceitual, e não temos features de segurança implementas, é possível executar as APIs disponibilizadas diramente pela interface do swagger
 
 # O que é Deadlock? Detalhe um pouco sobre o caso e como você poderia resolver isso
 
