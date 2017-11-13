@@ -7,7 +7,7 @@ Para desenvolvimento, foi utilizado o Spring tool suite, e um tomcat server loca
 
 Tal projeto está construido em cima do Spring Framework, utilizando o Maven como gerenciador de dependencias, utilizando recursos como (Spring Framework Web Features, JPA e MySQL) e o Swagger para documentação e exemplo de requests e responses nos serviços aqui criados
 
-A ideia principal de utilizar esse framework parte da ideia do controle que ele oferece. Todo esse controle, ele faz via notations, tais como @EnableAutoConfiguration, @Autowired e afins. Quando o projeto é iniciado, o Spring olha todos os recursos que você desenvolvou e publica estaticamente esses recursos para serem utilizados, dentro do seu escopo é claro.
+A ideia principal de utilizar esse framework parte da ideia do controle que ele oferece. Todo esse controle, ele faz via notations, tais como @EnableAutoConfiguration, @Autowired e afins. Quando o projeto é iniciado, o Spring olha todos os recursos que você desenvolveu e publica estaticamente esses recursos para serem utilizados, dentro do seu escopo é claro.
 
 Com isso, com nossas classes @RestController, após definir o mapeamento, o Spring cuida do trabalho de disponibilizar os serviços criados, dispondo também de features de segurança (Não foi utilizado pois a ideia era o teste e deixar todos os serviços públicos)
 
